@@ -9,3 +9,11 @@ Main things that were worked on were, learning about and creating "states" and h
 Learning about states allowed us to have a specific square "remember" what kind of state it was in before, allowing us to, in the future, change the state in each square to an 'X' so that the squares (when clicked) in the React app would portray an 'X'.
 
 States are important because it allows us to keep child components in sync with each other and with the parent component. It helps us to "remember" things, because we are able to see the current state of the component, and then change that so that it would reflect a new "state".
+
+1/25/2020
+Learned more about state control, learned that it is better for the Board to control the state, so that it can control every Square on the board, rather than each
+Square having control over their own state
+
+Passed props from Board to the Squares
+
+Used conditional statements to check the turn, and change X's from O's
